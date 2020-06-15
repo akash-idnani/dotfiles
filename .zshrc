@@ -79,6 +79,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git
     fasd
+    vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -115,7 +116,6 @@ source $ZSH/oh-my-zsh.sh
 ###################################################################
 eval $(dircolors ~/.dir_colors)
 
-bindkey -v
 bindkey 'jk' vi-cmd-mode
 
 source $HOME/.zshrc_local
