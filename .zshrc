@@ -119,4 +119,3 @@ eval $(dircolors ~/.dir_colors)
 bindkey 'jk' vi-cmd-mode
 
 source $HOME/.zshrc_local
-
